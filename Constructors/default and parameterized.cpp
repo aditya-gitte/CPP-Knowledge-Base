@@ -20,6 +20,6 @@ class B
 int main()
 {
     A obj; //this will not give an error because the default constructor is called by default
-    B obj2; // this will give an error because defualt constructor is not created when we manually create a parameterized constructor
+    // B obj2; // this will give an error because defualt constructor is not created when we manually create a parameterized constructor
     return 0;
 }
