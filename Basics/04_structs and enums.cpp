@@ -1,3 +1,16 @@
+/**
+ * This program demonstrates the usage of structs and enums in C++.
+ * 
+ * Structs are used to define a custom data type that groups together related data elements.
+ * They can have member variables and member functions, but by default, all members are public.
+ * Structs are commonly used to represent simple data structures.
+ * 
+ * Enums, short for enumerations, are used to define a set of named values.
+ * They provide a way to represent a fixed number of possible values for a variable.
+ * Enums in C++ are defined using the enum keyword, followed by the name of the enum and a list of possible values enclosed in curly braces.
+ * Each value in the enum is assigned an integer value starting from 0 by default, but you can specify custom values if needed.
+ */
+
 #include <iostream>
 
 using namespace std;
@@ -66,3 +79,4 @@ int main() {
 
     return 0;
 }
+
