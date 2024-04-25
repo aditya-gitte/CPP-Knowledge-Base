@@ -117,6 +117,7 @@ int main3() {
      * - consider a function void foo(int) and an overloaded function void foo(int*). If you call foo(NULL), the foo(int) version will be called, because NULL is an integer. But if you call foo(nullptr), the foo(int*) version will be called, because nullptr is a pointer.
      * - In general, it is recommended to use nullptr when you want to represent a null pointer, because it is type-safe and makes your intentions clear.
     **/
+   return 0;
 
 }
 
