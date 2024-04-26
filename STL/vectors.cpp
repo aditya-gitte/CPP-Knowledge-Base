@@ -4,7 +4,7 @@
 using namespace std;
 
 
-void creattionAndTraversal()
+void creation()
 {
     //Creating Vectors
     vector<int> v1;
@@ -14,17 +14,21 @@ void creattionAndTraversal()
     vector<int> v(5,100); //creates a vector of size 5 and fills it with 100
     vector<int> v{1,3,4,6}; // creates a vector of 1,3,4,6
     //for creating a 2D vector with predefined size use
-    vector<vector<int>> v=(m,vector<int> (n,0));
+    int m=3,n=4;
+    vector<vector<int>> v7=(m,vector<int> (n,0));
     //this would fill all the matrix with 0s;
+}
 
 
+void traversal()
+{
+    vector<int> v{1,2,3,4,5};
     //Creating an iterator
     vector<int>::iterator it = v.begin();
     auto it = v.begin(); //auto datatype automatically detects the datatype in cpp
 
     
-    
-    //Vectors can be traversed using range based loops
+    //can be traversed using range based loops
     for( vector<int>::iterator it = v.begin(); it!=v.end(); it++)
     {
         cout<<*(it);
@@ -41,6 +45,7 @@ void creattionAndTraversal()
 
 
 }
+
 
 
 void importantVectorFunctions()
