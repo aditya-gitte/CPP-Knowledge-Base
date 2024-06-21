@@ -19,6 +19,7 @@ class MyClass {
         int getX() {
             return x;
         }
+};
 
 int main() {
     // Creating an object of MyClass

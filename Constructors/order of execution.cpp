@@ -12,7 +12,7 @@ class Parent1
 }; 
 class Child1 : public Parent1 
 { 
-	public: 
+	public:    
 	Child1() 
 	{ 
 		cout << "Inside sub class" << endl; 
